@@ -74,6 +74,31 @@ li{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.theform{
+ 
+   width: 75%;
+   padding: 75px;
+   margin: 0 auto;
+    background-color: cyan;
+    border-radius: 50%;
+    box-shadow: 10px 10px;
+    
+    
+}
+.toptheform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.middleform{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.forminputs{
+    display: flex;
+    flex-direction: column;
+}
 
 @media(max-width: 1000px){
 
