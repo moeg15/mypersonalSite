@@ -1,0 +1,23 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(215, 144, 123);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.navbar a  {
+    transition: 1s;
+    background-color: rgb(221, 225, 217);
+    
+    
+}
+
+.navbar a:hover  {
+    transition: 1s;
+    background-color: rgb(221, 225, 217);
+    padding: 5px;
+    border-radius: 50%;
+    
+}
