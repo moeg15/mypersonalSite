@@ -2,6 +2,13 @@
 body{
     background-color: rgb(108, 75, 94);
 }
+.square img { 
+   
+    max-width: 50vh;
+    max-height: 50vh;
+    border-radius: 0%;
+    
+}
 img{
    
     max-width: 50vh;
@@ -10,7 +17,15 @@ img{
     
 }
 
-
+h1{
+    font-size: xx-large;
+}
+p{
+    font-size: xx-large;
+}
+li{
+    font-size: large;
+}
 .navbar{
     display: flex;
     justify-content: space-around;
@@ -51,3 +66,19 @@ img{
     justify-content: center;
     
 }
+.parallax{
+    background-image: url("https://wallpapercave.com/wp/wp2234623.jpg") ;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media(max-width: 1000px){
+
+    .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    }
